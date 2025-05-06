@@ -18,6 +18,8 @@ Again, this is only the starter to an OpenGL project.  This will not have exampl
 
 The scripts themselves are commented, However, here's an overview of the order of operations.
 
+Of course, please download and extract the zip file, it's just the contents of the repo.
+
 - First, run the OpenGL_Starter.sh script in your linux terminal.
   + This downloads and installs the necessary librarys to your Linux machine.
 - Then, of course, write your main.c, or use the example provided in the src directory.
