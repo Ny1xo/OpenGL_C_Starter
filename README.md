@@ -23,7 +23,7 @@ The scripts themselves are commented, However, here's an overview of the order o
 - Then, of course, write your main.c, or use the example provided in the src directory.
 - Finally, to compile, we call gcc like normal, except we now link the libraries to the compiled file.
   + `gcc -lglfw -lGL example_main.c -o App`
-  + the "-lglfw -lGL" are specifically how we link libraries to c projects.
+  + the "`-lglfw -lGL`" are specifically how we link libraries to c projects.
   + this code specifically compiles the main with the linked libraries, and renames the executable to 'App'
  
 From there, you should be able to run the c file, and a window should appear!
