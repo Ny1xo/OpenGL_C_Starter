@@ -4,6 +4,10 @@ I'm UNK Alumni Carson Mead.
 If you're reading this, you either got this "package" from Adam in class, 
 AND/ OR required a simple start to an OpenGL project in c using GLFW and GLEW on Linux(debian).
 
+This package was created because the libraries required for projects like this require linking, and
+are not well documented on the subject.  So, do NOT waste your time reading the GLFW docs on how to use
+the library, and use this starter pack instead.
+
 First, OpenGL is an open source graphical language, hence the name.  It is extremely low-level, and is
 vector-based.  So, it's important to have some handle on mathematics.  Anyway, OpenGL is specifically designed
 to utilize the GPU.  It is cross-language, so you can implement it using many other programming languages, but
