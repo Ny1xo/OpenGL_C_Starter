@@ -24,8 +24,8 @@ Of course, please download and extract the zip file, it's just the contents of t
   + This downloads and installs the necessary librarys to your Linux machine.
 - Then, of course, write your main.c, or use the example provided in the src directory.
 - Finally, to compile, we call gcc like normal, except we now link the libraries to the compiled file.
-  + `gcc -lglfw -lGL example_main.c -o App`
-  + the "`-lglfw -lGL`" are specifically how we link libraries to c projects.
+  + `gcc example_main.c -lglfw -lGL -lGLEW -o App`
+  + the "`-lglfw -lGL -lGLEW`" are specifically how we link libraries to c projects.
   + this code specifically compiles the main with the linked libraries, and renames the executable to 'App'
  
 From there, you should be able to run the c file, and a window should appear!
